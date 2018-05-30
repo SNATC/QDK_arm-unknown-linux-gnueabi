@@ -1,0 +1,6 @@
+python
+import sys
+sys.path.insert(0, '/mnt/build/toolchain-env-1.x/arm_gcc493_glibc220.out/usr/local/arm-unknown-linux-gnueabi/share/gcc-4.9.3/python')
+from libstdcxx.v6.printers import register_libstdcxx_printers
+register_libstdcxx_printers (None)
+end
